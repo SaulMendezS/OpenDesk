@@ -1,0 +1,72 @@
+{
+  "companies": [
+    {
+      "name": "FALP",
+      "description": "Accesos internos, servidores y monitoreo de infraestructura.",
+      "theme_color": "#0b79d0",
+      "logo": "assets/logos/falp.png",
+      "categories": [
+        {
+          "name": "Servidores principales",
+          "description": "Accesos directos a servidores compartidos.",
+          "resources": [
+            {
+              "name": "FServer 1",
+              "type": "folder",
+              "path": "\\\\fserver1"
+            },
+            {
+              "name": "FServer 2",
+              "type": "folder",
+              "path": "\\\\fserver2"
+            },
+            {
+              "name": "RT MOSAIQ",
+              "type": "folder",
+              "path": "\\\\srvrtmosaiq"
+            },
+            {
+              "name": "Bioslis",
+              "type": "folder",
+              "path": "\\\\srvbioslis"
+            }
+          ]
+        },
+        {
+          "name": "Servidores por IP",
+          "description": "Accesos directos mediante dirección IP.",
+          "resources": [
+            {
+              "name": "Servidor 172.16.100.56",
+              "type": "folder",
+              "path": "\\\\172.16.100.56"
+            },
+            {
+              "name": "Servidor 192.168.140.69",
+              "type": "folder",
+              "path": "\\\\192.168.140.69"
+            }
+          ]
+        },
+        {
+          "name": "Herramientas web",
+          "description": "Monitoreo y paneles internos.",
+          "resources": [
+            {
+              "name": "Monitoreo FALP",
+              "type": "web",
+              "path": "https://monitoreo1.falp.org/public/mapshow.htm?id=3537&mapid=0426583B-2786-4897-9EB2-E672EFF5A0CD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "el pepe",
+      "description": "Sin descripción.",
+      "theme_color": "#d68c05",
+      "logo": "assets/logos/el_pepe.png",
+      "categories": []
+    }
+  ]
+}
